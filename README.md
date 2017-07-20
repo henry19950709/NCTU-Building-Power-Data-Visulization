@@ -14,8 +14,10 @@ Note: Someone wants to run the code should install these libraries.
 ## Concept
 First, I write a python crawler to pull the power data from the website which NCTU puts all the buildings' power consumption data on. I just use six building from E1 to E6.
 
-Second, I use the libraries above to make some charts like bar, pie and line charts. The following picture is an example.
+Second, I use the libraries above to make some charts like bar, pie and line charts. The following pictures are an example.
 
 ![image](https://github.com/henry19950709/NCTU-Building-Power-Data-Visulization/raw/master/image/img1.jpg) 
+![image](https://github.com/henry19950709/NCTU-Building-Power-Data-Visulization/raw/master/image/img2.jpg) 
+![image](https://github.com/henry19950709/NCTU-Building-Power-Data-Visulization/raw/master/image/img3.jpg) 
 
 
