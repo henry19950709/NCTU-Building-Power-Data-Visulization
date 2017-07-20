@@ -332,6 +332,7 @@ word = [0,'一','二','三','四','五','六',]
 
 #-------Main------
 for j in range(1,7):
+	#------Crawl the ith building and do container initialization-----
 	robot=DataRobot()
 	robot.current_time=get_flag_days_ago(0)
 	robot.start_time = robot.current_time
@@ -341,14 +342,18 @@ for j in range(1,7):
 	dict['time']=[]
 	data = {}
 	plot=[]
+	#------The file name outputed-------------------------------------
 	output_file('E'+str(j)+'.html',title='工程'+str(j)+'館')
+	#------Crawl the weather website to get temperature and humidity--
 	get_temp_humidity()
+	#------Draw the charts--------------------------------------------
 	draw_temp_humidity(data,word[j])
 	draw_EC_donut(word[j],j)
 	draw_EC_power(word[j],j)
 	draw_total_power()
 	grid = gridplot(plot, ncols=2, plot_width=700, plot_height=700)
 	save(grid)
+	#------Upload to an online website--------------------------------
 	update('E'+str(j)+'.html')
 
 

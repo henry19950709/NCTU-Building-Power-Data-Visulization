@@ -1,3 +1,12 @@
+'''
+    This file is a Python Crawler to pull the data from the school's website.
+    You can change the url and headers if you want to pull other website's data.
+    I use the google chrome and press F12 to see when the request is sent, how the headers and the body look like,
+    and just type them in the following parameters.
+'''
+
+
+
 
 # coding=UTF-8 
 # -*- coding: utf8 -*-

@@ -21,3 +21,5 @@ Second, I use the libraries above to make some charts like bar, pie and line cha
 ![image](https://github.com/henry19950709/NCTU-Building-Power-Data-Visulization/raw/master/image/img3.jpg) 
 
 
+
+
