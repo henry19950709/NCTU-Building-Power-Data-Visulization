@@ -353,7 +353,7 @@ for j in range(1,7):
 	draw_total_power()
 	grid = gridplot(plot, ncols=2, plot_width=700, plot_height=700)
 	save(grid)
-	#------Upload to an online website--------------------------------
+	#------Upload the html files to an online website-----------------
 	update('E'+str(j)+'.html')
 
 
