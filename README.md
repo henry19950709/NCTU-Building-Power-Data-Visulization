@@ -20,6 +20,12 @@ Second, I use the libraries above to make some charts like bar, pie and line cha
 ![image](https://github.com/henry19950709/NCTU-Building-Power-Data-Visulization/raw/master/image/img2.jpg) 
 ![image](https://github.com/henry19950709/NCTU-Building-Power-Data-Visulization/raw/master/image/img3.jpg) 
 
+## What I learned
+* How to make a simple python crawler.
+* How to apply the data into the data visualization libraries.
+* Know importance and inconvenience of data preprocessing.
+* Use browser to sniff the request packet behind the web.
+
 
 
 
