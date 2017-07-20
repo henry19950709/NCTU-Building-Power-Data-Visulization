@@ -330,7 +330,7 @@ def draw_total_power():
 
 word = [0,'一','二','三','四','五','六',]
 
-#-------Main------
+#-------Main-------
 for j in range(1,7):
 	#------Crawl the ith building and do container initialization-----
 	robot=DataRobot()
